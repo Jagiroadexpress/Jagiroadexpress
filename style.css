@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #228B22; /* Green Color */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar input {
+    padding: 8px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cart-button {
+    background-color: gold;
+    color: black;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cart-button:hover {
+    background-color: orange;
+}
+
+/* Featured Products */
+.featured-products {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.product {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    color: #555;
+    font-size: 16px;
+}
+
+.add-to-cart {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.add-to-cart:hover {
+    background-color: #ff9900;
+}
+
+/* Cart Section */
+.cart-container {
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-container h2 {
+    margin-bottom: 10px;
+}
+
+#cart-items {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#total-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.clear-cart {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.clear-cart:hover {
+    background-color: darkred;
+}
