@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinkit Clone - Jagiroad Express</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Jagiroad Express</div>
+        <input type="text" placeholder="Search for groceries..." class="search-bar">
+        <button class="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button>
+    </header>
+    
+    <main>
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Fresh Apples</h3>
+                <p>$3.99 / kg</p>
+                <button onclick="addToCart('Fresh Apples')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Organic Bananas</h3>
+                <p>$1.99 / dozen</p>
+                <button onclick="addToCart('Organic Bananas')">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
